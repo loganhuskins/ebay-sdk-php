@@ -116,6 +116,12 @@ class ItemSummary extends \DTS\eBaySDK\Types\BaseType
             'attribute' => false,
             'elementName' => 'itemAffiliateWebUrl'
         ],
+        'itemCreationDate' => [
+            'type' => 'string',
+            'repeatable' => false,
+            'attribute' => false,
+            'elementName' => 'itemCreationDate'
+        ],
         'itemGroupHref' => [
             'type' => 'string',
             'repeatable' => false,
